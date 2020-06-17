@@ -1,4 +1,4 @@
-package test.chap02;
+package test.java.chap02;
 
 import main.java.tdd.chap02.PasswordStrength;
 import main.java.tdd.chap02.PasswordStrengthMeter;

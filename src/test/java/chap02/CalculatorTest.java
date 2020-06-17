@@ -1,4 +1,4 @@
-package test.chap02;
+package test.java.chap02;
 
 import org.junit.jupiter.api.Test;
 import main.java.tdd.chap02.Calculator;
