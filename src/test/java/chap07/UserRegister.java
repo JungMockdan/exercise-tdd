@@ -1,25 +1,25 @@
-package test.temp;
+package test.java.chap07;
 
 
 public class UserRegister {
 
-    private WeakPsswordChecker psswordChecker;
+    private WeakPasswordChecker psswordChecker;
     private UserRepository userRepository;
     private EmailNotifier emailNotifier;
 
     public UserRegister() {
     }
 
-    public UserRegister(WeakPsswordChecker psswordChecker) {
+    public UserRegister(WeakPasswordChecker psswordChecker) {
         this.psswordChecker = psswordChecker;
     }
 
-    public UserRegister(WeakPsswordChecker psswordChecker, UserRepository userRepository) {
+    public UserRegister(WeakPasswordChecker psswordChecker, UserRepository userRepository) {
         this.psswordChecker = psswordChecker;
         this.userRepository = userRepository;
     }
 
-    public UserRegister(WeakPsswordChecker psswordChecker,
+    public UserRegister(WeakPasswordChecker psswordChecker,
                         UserRepository userRepository,
                         EmailNotifier emailNotifier) {
         this.psswordChecker = psswordChecker;

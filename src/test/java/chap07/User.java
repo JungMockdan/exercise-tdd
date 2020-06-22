@@ -1,4 +1,4 @@
-package test.temp;
+package test.java.chap07;
 
 public class User {
     private String id;

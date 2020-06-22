@@ -3,15 +3,13 @@ package test.java.chap07;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import test.temp.*;
-import test.temp.MemoryUserRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class UserRegisterTest {
 
     private UserRegister userRegister;
-    private StubWeakPsswordChecker stubWeakPsswordChecker = new StubWeakPsswordChecker();
+    private StubWeakPasswordChecker stubWeakPsswordChecker = new StubWeakPasswordChecker();
     //대역
     private MemoryUserRepository fakeRepository = new  MemoryUserRepository();
     //스파이

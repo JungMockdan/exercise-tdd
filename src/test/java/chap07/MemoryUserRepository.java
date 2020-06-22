@@ -1,4 +1,4 @@
-package test.temp;
+package test.java.chap07;
 
 import java.util.HashMap;
 import java.util.Map;

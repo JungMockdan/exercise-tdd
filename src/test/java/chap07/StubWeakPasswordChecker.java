@@ -1,6 +1,6 @@
-package test.temp;
+package test.java.chap07;
 
-public class StubWeakPsswordChecker implements WeakPsswordChecker {
+public class StubWeakPasswordChecker implements WeakPasswordChecker {
     private boolean weak;
 
     public void setWeak(boolean weak) {

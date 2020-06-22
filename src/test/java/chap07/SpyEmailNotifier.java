@@ -1,4 +1,4 @@
-package test.temp;
+package test.java.chap07;
 
 public class SpyEmailNotifier implements EmailNotifier{
 
