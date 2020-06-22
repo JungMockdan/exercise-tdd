@@ -1,6 +1,8 @@
 package test.java.chap08.auth;
 
+
 public class LoginResult {
+
     public static LoginResult badAuthKey() {
         return null;
     }
