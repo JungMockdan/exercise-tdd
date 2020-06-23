@@ -14,5 +14,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.junit.jupiter:junit-jupiter:5.5.0" level="project" />
     <orderEntry type="library" name="org.mockito:mockito-core:2.0.111-beta" level="project" />
+    <orderEntry type="library" name="com.github.tomakehurst:wiremock:2.23.0" level="project" />
+    <orderEntry type="library" name="org.springframework.boot:spring-boot-starter-test:2.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="org.springframework.boot:spring-boot-starter:2.3.1.RELEASE" level="project" />
+    <orderEntry type="library" name="org.springframework.boot:spring-boot-starter-web:2.3.1.RELEASE" level="project" />
   </component>
 </module>

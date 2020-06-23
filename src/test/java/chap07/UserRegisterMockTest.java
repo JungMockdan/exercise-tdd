@@ -1,5 +1,6 @@
 package test.java.chap07;
 
+import main.java.tdd.chap07.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -13,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class UserRegisterMockTest {
     private UserRegister userRegister;
     private WeakPasswordChecker mockPasswordChecker = Mockito.mock(WeakPasswordChecker.class);
-    private MemoryUserRepository fakeReposigoty = new MemoryUserRepository();
+    private MemoryUserRepository fakeRepository = new MemoryUserRepository();
     private EmailNotifier mockEmailNotifier = Mockito.mock(EmailNotifier.class);
     /*
     * 위 소스 설명 - Mockito.mock(타입) : 인자로 들어온 타입의 모의객체 생성
@@ -21,7 +22,7 @@ public class UserRegisterMockTest {
 
     @BeforeEach
     void setUp(){
-        userRegister = new UserRegister(mockPasswordChecker, fakeReposigoty,mockEmailNotifier);
+        userRegister = new UserRegister(mockPasswordChecker, fakeRepository,mockEmailNotifier);
     }
 
     @Test

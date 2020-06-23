@@ -1,5 +1,6 @@
 package test.java.chap07;
 
+import main.java.tdd.chap07.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -41,7 +42,7 @@ public class UserRegisterTest {
         });
     }
 
-    @DisplayName("같은 ID가 없으면 가입실패")
+    @DisplayName("같은 ID가 없으면 가입성공")
     @Test
     void noDupId_RegisterSuccess(){
         userRegister.register("id","pw","email@email.com");
