@@ -1,5 +1,7 @@
 package main.java.tdd.chap07;
 
+import main.java.tdd.chap10.user.RegisterReq;
+
 public class User {
     private String id;
     private String password;
